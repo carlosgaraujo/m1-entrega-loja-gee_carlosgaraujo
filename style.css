@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+}
+
+.menuPrincipal {
+    display: flex;
+
+}
+
+.manuNav {
+    display: inline-flex;
+    gap: 15px;
+    list-style: none;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.listaItem {
+    background-color: #0A99FE;
+    border-radius: 7px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.listaItem:hover {
+    background-color: #0A99FE;
+    opacity: 0.1;
+}
+
+
+
+
+
+
+
+/* segunda parte */
+.listaFilmes {
+    overflow-x: auto;
+    display: flex;
+}
+
+.listaFilmes1 {
+    overflow-x: auto;
+    display: flex;
+}
+
+
+
+li {
+    list-style: none;
+
+}
+span{
+    background-color:grey;
+}
+
+.cards {
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 207px;
+    height: 275px;
+    
+}
+
+
+.filme-info {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
